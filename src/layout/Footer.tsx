@@ -1,4 +1,4 @@
-import { React, Redux, Shadcn, Tailwind } from "@/icons";
+import { ReactIcon, Redux, Shadcn, Tailwind } from "@/icons";
 import Logo from "./Logo";
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
         <h3 className="text-base opacity-70">Used:</h3>
         <ul className="flex gap-4">
           <li className="opacity-70 hover:opacity-100 transition-all duration-300 ease-in-out cursor-pointer">
-            <React className="w-24 h-24" />
+            <ReactIcon className="w-24 h-24" />
           </li>
           <li className="opacity-70 hover:opacity-100 transition-all duration-300 ease-in-out cursor-pointer">
             <Redux className="w-24 h-24" />
